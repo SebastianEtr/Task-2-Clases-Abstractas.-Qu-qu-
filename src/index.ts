@@ -508,7 +508,7 @@ async function fetchingData(){
  
  
 
-*/
+
 
 //actividad 3
 
@@ -579,3 +579,10 @@ const myPromise = new Promise((resolve) => {
               
            
             */
+
+              function prueba(a:number, b: number): boolean{
+                  return a > b;
+              }
+              console.log(prueba(10,9));
+              
+              
